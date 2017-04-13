@@ -1,5 +1,5 @@
 
-#cd命令概述
+# cd命令概述
 `cd`是`Change Directory`的缩写，这是用来切换工作目录的命令。`cd`命令是一个内置命令，可以通过`type`命令查看，如下：
 ```
 [root@localhost ~]# type cd
@@ -7,7 +7,7 @@ cd is a shell builtin
 ```
 
 
-#cd命令语法
+# cd命令语法
 `cd [相对路径或绝对路径或特殊符号]`
 说明：
 不加参数时，默认切换到用户主目录，即环境变量`HOME`指定的目录，如`root`用户的`HOME`变量为`/root`，那么`cd`命令不带参数时便切换到`/root`目录下。
@@ -20,7 +20,7 @@ cd is a shell builtin
 `.`表示当前目录。
 
 
-#cd命令示例
+# cd命令示例
 ```
 [root@localhost ~]# pwd   #查看当前目录。
 /root
